@@ -1,2 +1,0 @@
-# VueManager
-A vue exercise
