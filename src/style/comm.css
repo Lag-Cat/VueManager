@@ -1,0 +1,30 @@
+.fl{
+  float:left;
+}
+
+.fr{
+  float:right;
+}
+
+a{
+  cursor: pointer;
+  color:rgb(30, 144, 255);
+}
+
+.cb{
+  clear:both
+}
+
+.divider{
+  /* border:1px solid rgb(155, 155, 155); */
+  height:1px;
+  margin:10px 0px 10px 0px;
+  background:rgb(155, 155, 155);
+}
+
+ul{
+  padding:0px;
+}
+li{
+  list-style-type: none; 
+}
