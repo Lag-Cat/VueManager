@@ -1,30 +1,44 @@
 # vue-manager
 
-> A Vue.js project
+##萌新的vue练手项目
 
-## Build Setup
+##技术栈：vue3.x/element-ui/vuex/axios/vue-router
 
-``` bash
-# install dependencies
-npm install
+##进度：
 
-# serve with hot reload at localhost:8080
-npm run dev
+1.基本框架（有待完善）
 
-# build for production with minification
-npm run build
+2.引入了element-ui（已完成）
 
-# build for production and view the bundle analyzer report
-npm run build --report
+3.实现了路由（已完成）
 
-# run unit tests
-npm run unit
+4.主页（有待完善）
 
-# run e2e tests
-npm run e2e
+5.通过element-ui的el-menu实现了路由跳转（已完成）
 
-# run all tests
-npm test
-```
+6.引入axios和vuex（已完成）
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+7.实现axios拦截器（未完成）
+
+8.实现动态路由（未完成）
+
+9.后台接口（未完成）
+
+10.自定义组件（逐步实现）
+
+11.完善功能（未完成）
+
+12.部署应用（最终目标）
+
+
+##安装
+
+###npm install
+
+###npm i element-ui save
+
+###npm i vuex -save
+
+###npm i axios -save
+
+
