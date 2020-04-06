@@ -72,7 +72,7 @@ export default {
   padding: 10px;
 }
 .el-card{
-  margin:10px;
+  margin:5px;
 }
 .el-image-title{
   position: absolute;

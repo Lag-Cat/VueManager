@@ -20,7 +20,9 @@ import RewardRule from '@/page/manager/myReward/RewardRule'
 import GoodsDetail from '@/page/manager/RewardShop/GoodsDetail'
 import GoodsList from '@/page/manager/RewardShop/GoodsList'
 import ShopHome from '@/page/manager/RewardShop/ShopHome'
-
+import homeIndex from '@/page/index/Index'
+import moment from '@/page/index/Moment'
+import homeGallary from '@/page/index/Gallary'
 Vue.use(Router);
 
 const originalPush = Router.prototype.push;
@@ -34,7 +36,24 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Home,
+      children:[
+        {
+          path:'/homeIndex',
+          name:'homeIndex',
+          component:homeIndex
+        },
+        {
+          path:"/homeMonent",
+          name:'homeMoment',
+          component:moment
+        },
+        {
+          path:"/homeGallary",
+          name:"homeGallary",
+          component:homeGallary
+        }
+      ]
     },
     {
       path: '/Manager',

@@ -6,7 +6,7 @@
     active-text-color="#ffd04b"
     @select="handleSelect"
   >
-    <el-menu-item v-for="item in menuList" :index="item.id">{{item.title}}</el-menu-item>
+    <el-menu-item v-for="(item,key) in menuList" :index="item.id" :key="key">{{item.title}}</el-menu-item>
   </el-menu>
 </template>
 <script>

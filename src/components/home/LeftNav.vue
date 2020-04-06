@@ -6,7 +6,7 @@
     active-text-color="#ffd04b"
     router
   >
-    <el-menu-item v-for="item in menuList" :index="item.index">{{item.title}}</el-menu-item>
+    <el-menu-item v-for="(item,key) in menuList" :index="item.index" :key="key">{{item.title}}</el-menu-item>
   </el-menu>
 </template>
 <script>

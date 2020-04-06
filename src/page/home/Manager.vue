@@ -73,7 +73,7 @@ export default {
 }
 .m-header {
   height: 50px;
-  background: rgba(44, 44, 44);
+  background: rgb(44, 44, 44);
   width: 100%;
 }
 .m-span-Logo {

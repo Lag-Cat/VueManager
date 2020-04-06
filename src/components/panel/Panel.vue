@@ -1,6 +1,6 @@
 <template>
   <el-card ref="panel" class="panel" :style="panelSytle">
-    <div slot="header" class="clearfix">
+    <div v-if="typeof btnName==='string' || typeof title==='string'" slot="header" class="clearfix">
       <span v-if="typeof btnName==='string'" class="lp-title-font fl">{{title}}</span>
       <el-button
         v-if="typeof title==='string'"
@@ -9,29 +9,13 @@
       >{{btnName}}</el-button>
     </div>
     <div>
-      <ul>
-        <li v-for="(item,key) in list" :key="key">
-          <span class="lp-mark lp-li-font" :style="'width:'+mwidth+'px'">{{key}}</span>
-          <!-- 纯文本 -->
-          <span v-if="item.linkType=='text'" class="lp-content lp-li-font" :style="'width:'+cwidth+'px'">{{item.title}}</span>
-          <!-- 外部网站 -->
-          <a v-else-if="item.linkType=='outside'" target="_blank" :href="item.url" class="lp-content lp-li-font" :style="'width:'+cwidth+'px'">{{item.title}}</a>
-          <!-- 内部路由 -->
-          <router-link v-else-if="item.linkType=='router'" class="lp-content lp-li-font" :style="'width:'+cwidth+'px'">{{item.title}}</router-link>
-          <!-- 方法调用 -->
-          <a v-else-if="item.linkType=='func'" @click="onListClick(item.id)" class="lp-content lp-li-font" :style="'width:'+cwidth+'px'">{{item.title}}</a>
-          <!-- 纯文本 -->
-          <span v-else class="lp-content lp-li-font" :style="'width:'+cwidth+'px'">{{item.title}}</span>
-        </li>
-      </ul>
+      <slot></slot>
     </div>
   </el-card>
-</template> 
-
+</template>
 <script>
-import "../../style/comm.css";
 export default {
-  name: "listPanel",
+  name:"panel",
   props: {
     title: String,
     btnName: String,
@@ -58,7 +42,7 @@ export default {
     this.panelSytle =
       typeof this.height === "number" ? "height:" + this.height + "px" : "";
   }
-};
+}
 </script>
 <style scoped>
 .lp-title-font,

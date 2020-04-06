@@ -1,0 +1,111 @@
+<template>
+    <el-container>
+        <el-header class="header">
+
+        </el-header>
+        <el-main class="main">
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+            <div>123131312</div>
+        </el-main>
+        <el-footer class="footer">
+
+        </el-footer>
+    </el-container>
+</template>
+<script>
+export default {
+    name:"home"
+}
+</script>
+<style scoped>
+.header{
+    height:100px;
+    background:fuchsia;
+}
+
+.main{
+    height:100%;
+    background:hotpink;
+}
+
+.footer{
+    height:50px;
+    background:mediumvioletred;
+}
+</style>

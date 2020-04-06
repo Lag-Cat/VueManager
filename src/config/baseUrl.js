@@ -1,2 +1,4 @@
 
-const baseUrl="localhost:8080";//配置基础域名(基础url)
+const baseURL="https://localhost:44344";//配置基础域名(基础url)
+
+export default baseURL

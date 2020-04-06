@@ -120,7 +120,8 @@ export default new Vuex.Store({
                     },
                 ]
             },
-        ]
+        ],
+        userToken:"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     },
     getters: {
         getUserTopNavList(state) {
