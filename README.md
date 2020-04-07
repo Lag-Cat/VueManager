@@ -1,10 +1,8 @@
 # vue-manager
 
-<<<<<<< HEAD
 ##萌新的vue练手项目
 =======
 > 萌新的vue练习
->>>>>>> cab0c74cc046ca809e68fc94e873f2a2f979833a
 
 ##技术栈：vue3.x/element-ui/vuex/axios/vue-router
 
@@ -84,7 +82,7 @@ npm run dev
 - [ ] 加入sass或者less
 - [ ] 部署到服务器上
 
---更新日志
+## Update Log
 -2020/4/7 实现axios二次封装,调整主页存在的bug
 
 
