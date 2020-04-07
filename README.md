@@ -69,7 +69,7 @@ npm run dev
 - [ ] 构建主页  ---有待完善
 - [ ] 构建用户管理界面  ---有待完善
 - [ ] 自定义组件完善  ---有待完善
-- [ ] axios重写get、post方法与拦截器的实现
+- [x] axios重写get、post方法与拦截器的实现
 - [ ] vue-router动态路由的实现
 - [ ] 后端api
 
@@ -83,6 +83,10 @@ npm run dev
 --其它目标
 - [ ] 加入sass或者less
 - [ ] 部署到服务器上
+
+--更新日志
+-2020/4/7 实现axios二次封装,调整主页存在的bug
+
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 >>>>>>> cab0c74cc046ca809e68fc94e873f2a2f979833a
